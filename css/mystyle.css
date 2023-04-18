@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR (SIT ON TOP) */
+
+nav {
+ display: flex;
+ justify-content: space-between;
+ padding: 0;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ padding: 0 20px;
+ position: sticky;
+ top: 0;
+ z-index: 2;
+ background-color: white;
+}
+
+.product-name{
+   font-size: 13px;
+   letter-spacing: 2px;
+}
+
+.product-name h3{
+   margin: 7px 0;
+   font-size: 19px;
+   padding: 7px 15px;
+}
+
+.product-name h3:hover, .nav-items ul li:hover{
+    background-color: #cbcbcb;
+    cursor: pointer;
+}
+
+.nav-items ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-items ul li{
+    padding: 7px 15px;
+    margin: 7px 0;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+
+/* HEADER SECTION */
+
+.header-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+.content{
+    position: relative;
+    width: 100%;
+    max-width: 80%;
+}
+
+.content img{
+    width: 100%;
+}
+
+.content h2{
+    position: absolute;
+    bottom:20px;
+    left: 30px;
+    letter-spacing: 2px;
+    font-size: 30px;
+    font-weight: normal;
+    color: rgb(40, 63, 30);
+}
+
+/* ABOUT SECTION */
+
+.parent-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+}
+
+.child-div-left{
+    padding: 12px 24px;
+}
+
+.child-div-left img{
+    width: 500px;
+    height: 600px;
+}
+
+.child-div-right{
+    padding: 12px 24px;
+    height: 550px;
+    width: 500px;
+}
+
+.child-div-right h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    justify-content: top;
+    margin-bottom: 40px;
+}
+
+.child-div-right h4{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    margin: 30px 0;
+    font-size: 20px;
+}
+
+.text-first{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.text-sec{
+    color: #757575;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+    margin-top: 22px;
+}
+
+hr{
+    width: 1100px;
+    margin: 70px auto;
+    border-top: 1px solid rgb(215, 215, 215);
+}
+
+/* OUR MENU SECTION */
+
+.parent-div-menu{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.child-div-lm{
+    padding: 12px 24px;
+    height: 650px;
+    width: 500px;
+}
+
+.child-div-lm h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    justify-content: top;
+    margin-bottom: 40px;
+}
+
+.child-div-lm h4{
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    margin: 40px 0 20px 0;
+    font-size: 20px;
+}
+
+.child-div-lm p{
+    color: #757575;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.child-div-rm{
+    padding: 12px 24px;
+}
+
+.child-div-rm img{
+    width: 500px;
+    height: 700px;
+}
+
+/* CONTACT SECTION */
+
+.parent-div-c{
+    margin: 70px auto;
+    width: 58%;
+}
+
+.parent-div-c hr{
+    width: 950px;
+}
+
+.parent-div-c h2{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 5px;
+    font-weight: normal;
+    justify-content: top;
+    margin-bottom: 40px;
+}
+
+.parent-div-c p{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.5;
+}
+
+.parent-div-c h3{
+    font-size: 21px;
+    color: rgb(6, 130, 175);
+    margin: 30px 0;
+}
+
+.parent-div-c h4{
+    font-weight: 100;
+    font-size: 18px;
+    color: #959393;
+    margin: 40px 0 23px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.data{
+    font-size: 26px;
+    margin: 50px 0 23px 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.parent-div-c hr{
+    margin: 0;
+}
+
+.btn-send{
+    width: 15%;
+    font-weight: 100;
+    font-size: 16px !important;
+    margin: 40px 0 23px 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 12px 15px;
+    background-color: #f0e5e5;
+    border-radius: 5px;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+    background-color: #f0e5e5;
+}
+
+.div-footer{
+    text-align: center;
+    padding: 45px 0;
+}
+
+.div-footer p{
+    font-size: 18px;
+}
+
+.div-footer span{
+    text-decoration: underline;
+}
+
+.div-footer span:hover{
+    color: rgb(29, 162, 118);
+    cursor: pointer;
+}
